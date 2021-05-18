@@ -1,8 +1,11 @@
-import "./App.css";
+import "./css/App.css";
 import { useState, useEffect } from "react";
-import { length, width } from "./utils/index";
+
 import * as productVariants from "./mockData/productVariant.json";
-import Dropdown from "./Dropdown";
+
+import { length, width } from "./utils/index";
+
+import Dropdown from "./components/Dropdown";
 
 const App = () => {
   const products = productVariants.default;
